@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const cities = [
   {
     name: "Париж",
@@ -108,6 +110,19 @@ export default function Cities() {
               </ul>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 flex items-center justify-between border border-neutral-200 p-6 bg-neutral-50">
+          <div>
+            <p className="font-bold text-neutral-900 mb-1">Сравнить страны подробнее</p>
+            <p className="text-sm text-neutral-500">США, Франция, Германия, Китай, Аргентина, СССР — волны, трудности, наследие</p>
+          </div>
+          <Link
+            to="/countries"
+            className="shrink-0 ml-6 bg-neutral-900 text-white text-sm uppercase tracking-widest px-6 py-3 hover:bg-neutral-700 transition-colors duration-200"
+          >
+            Открыть →
+          </Link>
         </div>
       </div>
     </section>
