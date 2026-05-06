@@ -11,6 +11,7 @@ import Children from "@/components/Children";
 import Infographic from "@/components/Infographic";
 import Promo from "@/components/Promo";
 import Quotes from "@/components/Quotes";
+import Quiz from "@/components/Quiz";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -29,6 +30,7 @@ const Index = () => {
       <Infographic />
       <Promo />
       <Quotes />
+      <Quiz />
       <Footer />
     </main>
   );
