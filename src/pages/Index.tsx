@@ -14,6 +14,7 @@ import Quotes from "@/components/Quotes";
 import Quiz from "@/components/Quiz";
 import EmigrationMap from "@/components/EmigrationMap";
 import Gallery from "@/components/Gallery";
+import Personalities from "@/components/Personalities";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -33,6 +34,7 @@ const Index = () => {
       <Promo />
       <EmigrationMap />
       <Gallery />
+      <Personalities />
       <Quotes />
       <Quiz />
       <Footer />
