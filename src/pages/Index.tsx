@@ -15,6 +15,8 @@ import Quiz from "@/components/Quiz";
 import EmigrationMap from "@/components/EmigrationMap";
 import Gallery from "@/components/Gallery";
 import Personalities from "@/components/Personalities";
+import Letters from "@/components/Letters";
+import Glossary from "@/components/Glossary";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -35,6 +37,8 @@ const Index = () => {
       <EmigrationMap />
       <Gallery />
       <Personalities />
+      <Letters />
+      <Glossary />
       <Quotes />
       <Quiz />
       <Footer />
